@@ -10,6 +10,9 @@ class SpiderMan(TemplateView):
 class PeterParker(TemplateView):
     template_name = 'about.html'
 
+class Hero(TemplateView):
+    template_name = 'hero.html'
+
 # def spiderman(request):
 #     return HttpResponse('With Great Power Comes Great Responsibility')
 
